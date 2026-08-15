@@ -15,7 +15,7 @@ The goal of this project was to train an **object detection model** capable of d
 
 # 1. 🔮 Dataset Collection
 
-![Uploading ۲۰۲۶۰۷۱۴_۱۸۵۳۰۷.jpg…]()
+![alt text]![Uploading ۲۰۲۶۰۷۱۴_۱۸۵۳۰۷.jpg…]()
 
 A custom dataset was collected containing images from three classes:
 
