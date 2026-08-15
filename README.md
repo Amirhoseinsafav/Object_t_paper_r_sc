@@ -15,8 +15,6 @@ The goal of this project was to train an **object detection model** capable of d
 
 # 1. 🔮 Dataset Collection
 
-![my_picture](Uploading ۲۰۲۶۰۷۱۴_۱۸۵۳۰۷.jpg)
-
 A custom dataset was collected containing images from three classes:
 
 *  Rock
@@ -45,7 +43,6 @@ Where:
 ---
 
 # 2. 🔄 Data Augmentation
-![Uploading 1000026696_aug_4.jpg…]()
 
 Because the original dataset was limited, **data augmentation** was applied to increase the diversity of training images.
 
