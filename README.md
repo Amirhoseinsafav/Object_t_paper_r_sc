@@ -1,24 +1,24 @@
-# ✊✋✌️ Rock Paper Scissors Object Detection Project
+#  Rock Paper Scissors Object Detection Project
 
 ## 📌 Project Overview
 
 In this project, a **deep learning based object detection model** was developed to recognize three hand gesture classes:
 
-* ✊ Rock
-* ✋ Paper
-* ✌️ Scissors
+*  Rock
+*  Paper
+*  Scissors
 
-The goal of this project was to train an **object detection model** capable of detecting and classifying hand gestures in real-time using a webcam 📷.
+The goal of this project was to train an **object detection model** capable of detecting and classifying hand gestures in real-time using a webcam .
 
 ---
 
-# 1. 📸 Dataset Collection
+# 1.  Dataset Collection
 
 A custom dataset was collected containing images from three classes:
 
-* ✊ Rock
-* ✋ Paper
-* ✌️ Scissors
+*  Rock
+*  Paper
+*  Scissors
 
 Initial dataset information:
 
@@ -35,9 +35,9 @@ class_id x_center y_center width height
 
 Where:
 
-* 🆔 `class_id` represents the object category
-* 📍 `x_center` and `y_center` represent normalized bounding box center coordinates
-* 📏 `width` and `height` represent normalized bounding box dimensions
+*  `class_id` represents the object category
+*  `x_center` and `y_center` represent normalized bounding box center coordinates
+*  `width` and `height` represent normalized bounding box dimensions
 
 ---
 
@@ -49,9 +49,9 @@ For each original image, **5 augmented versions** were generated.
 
 The augmentation pipeline was implemented using the **Albumentations** library.
 
-## 🔷 Geometric Transformations
+##  Geometric Transformations
 
-### 🔃 Horizontal Flip
+###  Horizontal Flip
 
 Randomly flips images horizontally:
 
@@ -250,9 +250,9 @@ The detection pipeline:
 
 The final trained model can detect:
 
-* ✊ Rock
-* ✋ Paper
-* ✌️ Scissors
+*  Rock
+*  Paper
+*  Scissors
 
 from webcam input in real-time.
 
@@ -270,4 +270,4 @@ The augmentation strategy improved model performance and robustness against:
 
 این پروژه یک سیستم تشخیص حرکت دست با استفاده از **YOLO و Deep Learning** است. مدل با تصاویر سنگ، کاغذ و قیچی آموزش داده شده و می‌تواند از طریق وب‌کم در لحظه آن‌ها را تشخیص دهد.
 
-برای بهتر شدن دقت مدل، از **Data Augmentation** برای افزایش تنوع تصاویر استفاده شده است. این پروژه ترکیبی از **پردازش تصویر، یادگیری عمیق و تشخیص اشیا** است. 🤖📷
+برای بهتر شدن دقت مدل، از **Data Augmentation** برای افزایش تنوع تصاویر استفاده شده است. این پروژه ترکیبی از **پردازش تصویر، یادگیری عمیق و تشخیص اشیا** است. 
