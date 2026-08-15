@@ -22,8 +22,8 @@ A custom dataset was collected containing images from three classes:
 
 Initial dataset information:
 
-* 🖼️ Total images: **523 images**
-* 🏷️ Number of classes: **3**
+*  Total images: **523 images**
+*  Number of classes: **3**
 
 Each image was manually labeled using the **YOLO annotation format**.
 
@@ -61,29 +61,29 @@ p = 0.5
 
 ---
 
-### 📐 Affine Transformation
+###  Affine Transformation
 
 Includes:
 
-* 🔍 Scaling:
+*  Scaling:
 
 ```text
 0.85 - 1.15
 ```
 
-* ↔️ Translation:
+*  Translation:
 
 ```text
 -10% to +10%
 ```
 
-* 🔄 Rotation:
+*  Rotation:
 
 ```text
 -15 to +15 degrees
 ```
 
-* 📏 Shearing:
+*  Shearing:
 
 ```text
 -5 to +5 degrees
@@ -97,9 +97,9 @@ p = 0.8
 
 ---
 
-## 🎨 Image Appearance Transformations
+##  Image Appearance Transformations
 
-### ☀️ Random Brightness and Contrast
+###  Random Brightness and Contrast
 
 Simulates different lighting conditions:
 
@@ -116,7 +116,7 @@ p = 0.7
 
 ---
 
-### 🌈 Hue Saturation Value Adjustment
+###  Hue Saturation Value Adjustment
 
 Changes image colors:
 
@@ -134,9 +134,9 @@ p = 0.4
 
 ---
 
-## 🌫️ Noise and Blur
+##  Noise and Blur
 
-### 🔍 Gaussian Blur
+###  Gaussian Blur
 
 Simulates camera focus changes:
 
@@ -147,7 +147,7 @@ p = 0.15
 
 ---
 
-### 📡 Gaussian Noise
+###  Gaussian Noise
 
 Adds random noise to improve model robustness:
 
@@ -168,19 +168,19 @@ The augmented dataset was used to train a **YOLO object detection model**.
 
 Training configuration:
 
-* ⏳ Number of epochs:
+*  Number of epochs:
 
 ```text
 100 epochs
 ```
 
-* 🎯 Task:
+*  Task:
 
 ```text
 Object Detection
 ```
 
-* 🏷️ Classes:
+*  Classes:
 
 ```text
 3 classes
@@ -188,61 +188,62 @@ Object Detection
 
 During training, the model learned:
 
-* 📍 Object localization
-* 🏷️ Class prediction
-* 📦 Bounding box regression
+*  Object localization
+*  Class prediction
+*  Bounding box regression
 
 ---
 
-# 4. Real-Time Webcam Detection
+# 4. 📸 Real-Time Webcam Detection
 
 After training, the model was connected to a webcam.
 
 The detection pipeline:
 
-1.  Capture live video frames
-2.  Send frames to YOLO model
-3.  Detect objects
-4.  Predict classes:
+1. Capture live video frames
+2. Send frames to YOLO model
+3. Detect objects
+4. Predict classes:  
 
    *  Rock
    *  Paper
    *  Scissors
-5. 📊 Display bounding boxes and confidence scores in real-time
+     
+6. Display bounding boxes and confidence scores in real-time
 
 ---
 
 # 5. 🔥 Project Pipeline
 
 ```text
-📸 Image Collection
+ Image Collection
         |
         ↓
-🏷️ Manual YOLO Annotation
+ Manual YOLO Annotation
         |
         ↓
-🔄 Data Augmentation
+ Data Augmentation
         |
         ↓
-🧠 YOLO Model Training
+ YOLO Model Training
         |
         ↓
-📊 Model Evaluation
+ Model Evaluation
         |
         ↓
-📷 Webcam Real-Time Detection
+ Webcam Real-Time Detection
 ```
 
 ---
 
 # 6. 🛠️ Technologies Used
 
-* 🐍 Python
-* 👁️ OpenCV
-* 🔄 Albumentations
-* 🧠 YOLO Object Detection
-* 🔢 NumPy
-* 📷 Webcam Processing
+*  Python
+*  OpenCV
+*  Albumentations
+*  YOLO Object Detection
+*  NumPy
+*  Webcam Processing
 
 ---
 
@@ -258,11 +259,11 @@ from webcam input in real-time.
 
 The augmentation strategy improved model performance and robustness against:
 
-* 💡 Different lighting conditions
-* 📍 Different object positions
-* 🔄 Rotation changes
-* 🌫️ Image noise
-* 📷 Camera variations
+*  Different lighting conditions
+*  Different object positions
+*  Rotation changes
+*  Image noise
+*  Camera variations
 
 ---
 
