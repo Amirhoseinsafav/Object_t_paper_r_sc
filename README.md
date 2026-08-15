@@ -194,20 +194,20 @@ During training, the model learned:
 
 ---
 
-# 4. 📷 Real-Time Webcam Detection
+# 4. Real-Time Webcam Detection
 
 After training, the model was connected to a webcam.
 
 The detection pipeline:
 
-1. 🎥 Capture live video frames
-2. 🧠 Send frames to YOLO model
-3. 🔎 Detect objects
-4. 🏷️ Predict classes:
+1.  Capture live video frames
+2.  Send frames to YOLO model
+3.  Detect objects
+4.  Predict classes:
 
-   * ✊ Rock
-   * ✋ Paper
-   * ✌️ Scissors
+   *  Rock
+   *  Paper
+   *  Scissors
 5. 📊 Display bounding boxes and confidence scores in real-time
 
 ---
