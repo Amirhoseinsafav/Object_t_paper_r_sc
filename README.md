@@ -14,7 +14,9 @@ The goal of this project was to train an **object detection model** capable of d
 ---
 
 # 1. 🔮 Dataset Collection
-
+<div align="center">
+  <img src="README_images/TDA_Features.png" alt="TDA Features" width="400"/>
+</div>
 A custom dataset was collected containing images from three classes:
 
 *  Rock
