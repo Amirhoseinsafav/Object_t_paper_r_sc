@@ -1,7 +1,7 @@
 
 #  Rock Paper Scissors Object Detection Project
 
-## 📌 Project Overview
+##  Project Overview
 
 In this project, a **deep learning based object detection model** was developed to recognize three hand gesture classes:
 
@@ -13,7 +13,7 @@ The goal of this project was to train an **object detection model** capable of d
 
 ---
 
-# 1. 🔮 Dataset Collection
+# 1.  Dataset Collection
 <div align="center">
   <img src="README_images/TDA_Features.png" alt="TDA Features" width="400"/>
 </div>
@@ -44,7 +44,7 @@ Where:
 
 ---
 
-# 2. 🔄 Data Augmentation
+# 2.  Data Augmentation
 
 Because the original dataset was limited, **data augmentation** was applied to increase the diversity of training images.
 
@@ -161,11 +161,11 @@ p = 0.2
 
 ---
 
-📌 Bounding boxes were also transformed during augmentation to keep YOLO labels synchronized with generated images.
+ Bounding boxes were also transformed during augmentation to keep YOLO labels synchronized with generated images.
 
 ---
 
-# 3. 🧠 Model Training
+# 3.  Model Training
 
 The augmented dataset was used to train a **YOLO object detection model**.
 
@@ -197,7 +197,7 @@ During training, the model learned:
 
 ---
 
-# 4. 📸 Real-Time Webcam Detection
+# 4.  Real-Time Webcam Detection
 
 After training, the model was connected to a webcam.
 
@@ -216,7 +216,7 @@ The detection pipeline:
 
 ---
 
-# 5. 🔥 Project Pipeline
+# 5.  Project Pipeline
 
 ```text
  Image Collection
@@ -239,7 +239,7 @@ The detection pipeline:
 
 ---
 
-# 6. 🛠️ Technologies Used
+# 6.  Technologies Used
 
 *  Python
 *  OpenCV
@@ -250,7 +250,7 @@ The detection pipeline:
 
 ---
 
-# 7. ✅ Results
+# 7.  Results
 
 The final trained model can detect:
 
@@ -269,9 +269,4 @@ The augmentation strategy improved model performance and robustness against:
 *  Camera variations
 
 ---
-
-# 🇮🇷 توضیح فارسی
-
-این پروژه یک سیستم تشخیص حرکت دست با استفاده از **YOLO و Deep Learning** است. مدل با تصاویر سنگ، کاغذ و قیچی آموزش داده شده و می‌تواند از طریق وب‌کم در لحظه آن‌ها را تشخیص دهد.
-
-برای بهتر شدن دقت مدل، از **Data Augmentation** برای افزایش تنوع تصاویر استفاده شده است. این پروژه ترکیبی از **پردازش تصویر، یادگیری عمیق و تشخیص اشیا** است. 
+Made by Amir AXZ
